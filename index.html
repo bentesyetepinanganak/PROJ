@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/gif" href="C:\Users\John Aeron Dungog\OneDrive\Desktop\project\STCLARE.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN FORM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('BACKGG.jpg');
+            background-size: cover; 
+            background-repeat: no-repeat;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            background-color: rgba(255, 255, 255, .1);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(233, 178, 178, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .login-container button {
+            background-color: #666666;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>LOGIN FORM</h2>
+    <form action="ATTENDANCE (2).html" method="post">
+        <input type="text" name="Username" placeholder="Username" required>
+        <br>
+        <input type="Password" name="Password" placeholder="Password" required>
+        <br>
+        <button type="submit">LOGIN</button>
+    </form>
+    </div>
+<script>
+    function ATTENDANCE(){
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        if(username== "KERT" && password== "SEBASTIAN"){
+            window.location.assign("ATTENDANCE (2).html");
+            alert("LOGIN SUCCESSFULLY ");
+        }
+        else{
+            alert("INVALID INFORMATION ");
+            return;
+        }
+    }
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#school{
+    font-size: 48px;
+    color: deeppink;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+body{
+    background-image: url('ATTEND');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.head{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*---------LOGIN-------*/
+
+
+/*------STUDENT FORM-----*/
+
+  table,
+td,
+th {
+border: 2px solid #040000;
+text-align: left;
+}
+table {
+border-collapse: collapse;
+width: 100%;
+margin: auto;
+margin-top: 50px;
+}
+.btn-warning {
+    color: #000;
+    background-color: #5c5b58;
+    border-color: #ffc107;
+}
+th,
+td {
+padding: 20px;
+text-align: center;
+color: rgb(9, 8, 8);
+style: bold;	
+}
+tr > th {
+
+color: sol rgb(17, 14, 14);
+}
+.studentData{
+    width: 100%;
+    padding: 2px;
+}
+#form1{
+    margin: auto;
+    width: 45%; 
+   
+}
+#form1 input {
+    padding: 10px;
+    margin-right: 5px;
+    display: inline-block;
+    border: 1px solid #0b0909;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: black;
+}
+img{
+    position: absolute;     
+    bottom: 92%;
+    left: 95.76%;
+}
+#form1 input:focus{
+    outline: none;
+    color: black;
+}
+
+.td5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.td5 > button{
+    margin-right: 10px;
+    color: rgb(5, 3, 3);
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+} 
+.td5 > button:nth-child(1) {
+    background-color: rgb(120 119 36);
+}
+.td5 > button:nth-child(2) {
+    background-color: #6a6a6a;
+}
+#absent{
+    background-color: brown;
+}
+.btn-delete {
+    background-color: #c9acaf;
+    color: red;
+}x
+a {
+    color: black;
+}
+element.style {
+    width: 2%;
+    background-color: rgba(24, 28, 82, 0.1);
+    height: auto;
+}
